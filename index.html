@@ -44,10 +44,10 @@
               <a class="nav-link js-scroll-trigger" href="#skills"><strong>Skills</strong></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#portfolio"><strong>Hobbies</strong></a>
+              <a class="nav-link js-scroll-trigger" href="#project"><strong>Project</strong></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#team"><strong>Team</strong></a>
+              <a class="nav-link js-scroll-trigger" href="#portfolio"><strong>Hobbies</strong></a>
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#contact"><strong>Contact</strong></a>
@@ -136,42 +136,103 @@
     </section>
 
     <!-- Skills -->
-    <section id="skills">
+    <section class="bg-light" id="skills">
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
             <h2 class="section-heading text-uppercase">Skills</h2>
-            <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+            <h3 class="section-subheading text-muted">Main programming language I use.</h3>
           </div>
         </div>
         <div class="row text-center">
           <div class="col-md-4">
             <span class="fa-stack fa-4x">
-              <i class="fas fa-circle fa-stack-2x text-primary"></i>
-              <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>
+              <img class="rounded-circle img-fluid" src="./img/skills/1.jpg" height="125px" width="125px" alt="Avatar">
             </span>
-            <h4 class="service-heading">E-Commerce</h4>
-            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+            <h4 class="service-heading">Python</h4>
+            <p class="text-muted">I mainly use Python to deal with LeetCode and implementing algorithm problems. Using Pygames, I also developed a RPG dungeon game with my teammate.</p>
           </div>
           <div class="col-md-4">
             <span class="fa-stack fa-4x">
-              <i class="fas fa-circle fa-stack-2x text-primary"></i>
-              <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
+              <img class="rounded-circle img-fluid" src="./img/skills/2.png" height="150px" width="150px" alt="Avatar">
             </span>
-            <h4 class="service-heading">Responsive Design</h4>
-            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+            <h4 class="service-heading">C#</h4>
+            <p class="text-muted">I used C# to develop an application of ORACLE 12c database, and achieved business logic, such as purchases and shipments, products management and other management. Used C# language to construct modules like login, sign in, password reset and membership management.</p>
           </div>
           <div class="col-md-4">
             <span class="fa-stack fa-4x">
-              <i class="fas fa-circle fa-stack-2x text-primary"></i>
-              <i class="fas fa-lock fa-stack-1x fa-inverse"></i>
+              <img class="rounded-circle img-fluid" src="./img/skills/3.png" height="150px" width="150px" alt="Avatar">
             </span>
-            <h4 class="service-heading">Web Security</h4>
-            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+            <h4 class="service-heading">Java</h4>
+            <p class="text-muted">I used Java to develop a stock trading game. Calling the API from the stock market, you can see the value of the stock and create an investing portfolio. You can check the portfolio's price, costs and even plot its value in the last several months.</p>
           </div>
         </div>
       </div>
     </section>
+
+
+    <!-- project -->
+    <section id="project">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading text-uppercase">Project</h2>
+            <h3 class="section-subheading text-muted">Some course project in school.</h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="team-member">
+              <h4>Dungeons and Dragons</h4>
+              <br>
+              <img class="mx-auto rounded-circle" src="img/team/1.jpg" alt="">
+              <p>Using Pygame engine and python to develop a dungeon game. I mainly design the monster's pathfinding part and my teammate mainly design different kinds of monsters.</p>
+              <a href="https://github.com/simonwux/gameAIProject">Github</a>
+              <!-- <ul class="list-inline social-buttons">
+                <li class="list-inline-item">
+                  <a href="#">
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#">
+                    <i class="fab fa-facebook-f"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#">
+                    <i class="fab fa-linkedin-in"></i>
+                  </a>
+                </li>
+              </ul> -->
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="team-member">
+              <h4>Graph compression based on Graphchi</h4>
+              <img class="mx-auto rounded-circle" src="img/team/2.png" alt="">
+              <p class="text-muted">Used Graphchi framework to develop an application to compress massive social graph data. I used C++ to develop and Matlab to validate and visualize my results. This is my graduation thesis during the bachelor degree. </p>
+              <a href="https://github.com/simonwux/graphchi">Github</a>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="team-member">
+              <h4>Graph Compression Visualization</h4>
+              <img class="mx-auto rounded-circle" src="img/team/3.jpeg" alt="">
+              <p class="text-muted">I mainly used the Force-Directed Graph in D3.js to visualize the compression results of massive social graph compression. The raw data is provided by CSV format.</p>
+              
+              <a href="https://github.com/simonwux/htdocs">Github</a>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="row">
+          <div class="col-lg-8 mx-auto text-center">
+            <p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
+          </div>
+        </div> -->
+      </div>
+    </section>
+
 
     <!-- Portfolio Grid -->
     <section class="bg-light" id="portfolio">
@@ -263,7 +324,7 @@
               <img class="img-fluid" src="img/portfolio/06-thumbnail.png" alt="">
             </a>
             <div class="portfolio-caption">
-              <h4>Leetcode</h4>
+              <h4>LeetCode</h4>
               <p class="text-muted">Planning to find a good job in the future</p>
             </div>
           </div>
@@ -273,99 +334,8 @@
 
     
 
-    <!-- Team -->
-    <section class="bg-light" id="team">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase">Our Amazing Team</h2>
-            <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-sm-4">
-            <div class="team-member">
-              <img class="mx-auto rounded-circle" src="img/team/1.jpg" alt="">
-              <h4>Kay Garland</h4>
-              <p class="text-muted">Lead Designer</p>
-              <ul class="list-inline social-buttons">
-                <li class="list-inline-item">
-                  <a href="#">
-                    <i class="fab fa-twitter"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="#">
-                    <i class="fab fa-facebook-f"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="#">
-                    <i class="fab fa-linkedin-in"></i>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-sm-4">
-            <div class="team-member">
-              <img class="mx-auto rounded-circle" src="img/team/2.jpg" alt="">
-              <h4>Larry Parker</h4>
-              <p class="text-muted">Lead Marketer</p>
-              <ul class="list-inline social-buttons">
-                <li class="list-inline-item">
-                  <a href="#">
-                    <i class="fab fa-twitter"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="#">
-                    <i class="fab fa-facebook-f"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="#">
-                    <i class="fab fa-linkedin-in"></i>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-sm-4">
-            <div class="team-member">
-              <img class="mx-auto rounded-circle" src="img/team/3.jpg" alt="">
-              <h4>Diana Pertersen</h4>
-              <p class="text-muted">Lead Developer</p>
-              <ul class="list-inline social-buttons">
-                <li class="list-inline-item">
-                  <a href="#">
-                    <i class="fab fa-twitter"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="#">
-                    <i class="fab fa-facebook-f"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="#">
-                    <i class="fab fa-linkedin-in"></i>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-8 mx-auto text-center">
-            <p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
     <!-- Clients -->
-    <section class="py-5">
+    <!-- <section class="py-5">
       <div class="container">
         <div class="row">
           <div class="col-md-3 col-sm-6">
@@ -390,7 +360,7 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
     <!-- Contact -->
     <section id="contact">
@@ -442,7 +412,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-4">
-            <span class="copyright">Copyright &copy; Your Website 2018</span>
+            <span class="copyright">Copyright &copy; Simon's home page 2019</span>
           </div>
           <div class="col-md-4">
             <ul class="list-inline social-buttons">
@@ -590,18 +560,18 @@
               <div class="col-lg-8 mx-auto">
                 <div class="modal-body">
                   <!-- Project Details Go Here -->
-                  <h2 class="text-uppercase">Project Name</h2>
-                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                  <h2 class="text-uppercase">Red Dead Redemption 2</h2>
+                  <p class="item-intro text-muted">Legend of Arthur Morgan and Van der Linde gang.</p>
                   <img class="img-fluid d-block mx-auto" src="img/portfolio/04-full.jpg" alt="">
-                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                  <p>America, 1899. The end of the Wild West era has begun. After a robbery goes badly wrong in the western town of Blackwater, Arthur Morgan and the Van der Linde gang are forced to flee. With federal agents and the best bounty hunters in the nation massing on their heels, the gang must rob, steal and fight their way across the rugged heartland of America in order to survive. As deepening internal divisions threaten to tear the gang apart, Arthur must make a choice between his own ideals and loyalty to the gang who raised him.</p>
+                  <a href="https://www.rockstargames.com/reddeadredemption2/">Official Website</a>
                   <ul class="list-inline">
-                    <li>Date: January 2017</li>
-                    <li>Client: Lines</li>
-                    <li>Category: Branding</li>
+                    <li>Date: October 26 2018</li>
+                    <li>RockStar Games</li>
                   </ul>
                   <button class="btn btn-primary" data-dismiss="modal" type="button">
                     <i class="fas fa-times"></i>
-                    Close Project</button>
+                    Close</button>
                 </div>
               </div>
             </div>
@@ -661,18 +631,18 @@
               <div class="col-lg-8 mx-auto">
                 <div class="modal-body">
                   <!-- Project Details Go Here -->
-                  <h2 class="text-uppercase">Project Name</h2>
-                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                  <h2 class="text-uppercase">LeetCode</h2>
+                  <p class="item-intro text-muted">Hope to find a good job.</p>
                   <img class="img-fluid d-block mx-auto" src="img/portfolio/06-full.png" alt="">
-                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                  <ul class="list-inline">
+                  <p>Used LeetCode to practice my programming skills, and hoped to find a good job. I find the Weekly Contest interesting and keep participating it. My best shot is Rank 19 in Weekly Contest 107.</p>
+                  <!-- <ul class="list-inline">
                     <li>Date: January 2017</li>
                     <li>Client: Window</li>
                     <li>Category: Photography</li>
-                  </ul>
+                  </ul> -->
                   <button class="btn btn-primary" data-dismiss="modal" type="button">
                     <i class="fas fa-times"></i>
-                    Close Project</button>
+                    Close</button>
                 </div>
               </div>
             </div>
