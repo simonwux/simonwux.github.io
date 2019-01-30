@@ -11,4 +11,9 @@ Use "git clone "https://github.com/simonwux/simonwux.github.io.git", and then st
 I deploy the website using the github page. The guide of using github page is here: https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/Publishing_your_website#Publishing_via_GitHub. Make sure your folder has an index.html file.
 
 ## Demo link
+
 <a href="https://simonwux.github.io">simonwux.github.io</a>
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
