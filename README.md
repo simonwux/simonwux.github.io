@@ -22,7 +22,7 @@ I deploy the website using the github page. The guide of using github page is he
 ![ScreenShot](https://github.com/simonwux/simonwux.github.io/blob/master/screenshot/5.PNG)
 ![ScreenShot](https://github.com/simonwux/simonwux.github.io/blob/master/screenshot/6.PNG)
 
-# Demonstration Video
+## Demonstration Video
 
 https://drive.google.com/file/d/1-ZPidh9kKQinLkitj6BvE18yrLrNbrtY/view?usp=sharing
 
