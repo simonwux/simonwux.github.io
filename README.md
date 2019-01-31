@@ -29,6 +29,9 @@ https://drive.google.com/file/d/1-ZPidh9kKQinLkitj6BvE18yrLrNbrtY/view?usp=shari
 ## Author
 Shuomin "Simon" Wu
 
+## Class Link
+[CS-5610 Web Development Spring 2019](http://johnguerra.co/classes/webDevelopment_spring_2019/)
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
