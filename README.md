@@ -14,6 +14,24 @@ I deploy the website using the github page. The guide of using github page is he
 
 <a href="https://simonwux.github.io">simonwux.github.io</a>
 
+## Screenshots
+![ScreenShot](https://github.com/simonwux/simonwux.github.io/blob/master/screenshot/1.PNG)
+![ScreenShot](https://github.com/simonwux/simonwux.github.io/blob/master/screenshot/2.PNG)
+![ScreenShot](https://github.com/simonwux/simonwux.github.io/blob/master/screenshot/3.PNG)
+![ScreenShot](https://github.com/simonwux/simonwux.github.io/blob/master/screenshot/4.PNG)
+![ScreenShot](https://github.com/simonwux/simonwux.github.io/blob/master/screenshot/5.PNG)
+![ScreenShot](https://github.com/simonwux/simonwux.github.io/blob/master/screenshot/6.PNG)
+
+## Demonstration Video
+
+https://drive.google.com/file/d/1-ZPidh9kKQinLkitj6BvE18yrLrNbrtY/view?usp=sharing
+
+## Author
+Shuomin "Simon" Wu
+
+## Class Link
+[CS-5610 Web Development Spring 2019](http://johnguerra.co/classes/webDevelopment_spring_2019/)
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
